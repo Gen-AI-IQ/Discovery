@@ -38,12 +38,6 @@ The digital infrastructure is designed to be highly professional but extremely c
 * **Web Hosting:** Deployed as a static site via GitHub Pages or Cloudflare Pages (Zero-cost hosting).
 * **Professional Email:** Configured via Zoho Mail's "Forever Free" tier to provide custom domain addresses (e.g., `founder@vmdgeniq.in`) mapped via MX/SPF records in Cloudflare.
 
-### 6. Brand Identity & Design Language
-* **Primary Colors:** Deep Navy (Trust/Corporate), Tech Blue (Innovation), and Crisp White (Modern/Clean).
-* **Typography:** Clean, sans-serif fonts (e.g., Inter, Roboto, or Montserrat) to communicate digital native expertise.
-* **Logo Concept:** Minimalist and geometric.
-* **Social Footprint:** Initial presence limited to highly optimized LinkedIn profiles (Company Page and Founder Profile), with placeholders secured on X/Twitter and Facebook.
-
 ---
 
 ## PART 2: INFRASTRUCTURE DEPLOYMENT ROADMAP
@@ -51,7 +45,7 @@ The digital infrastructure is designed to be highly professional but extremely c
 ### 1. Domain Registration Strategy
 * **.in Domain:** Generally the most cost-effective option for an Indian-based consultancy, often priced at a few hundred rupees for the first year.
 * **.dev Domain:** Built specifically for developers and tech projects. Requires HTTPS (SSL encryption) for the site to load in browsers, managed for free via Cloudflare.
-* **Avoid "Free" Domains:** Avoid gimmicks requiring expensive long-term hosting packages. Use a low-cost custom domain from a reliable registrar (Namecheap, Porkbun, or Cloudflare Registrar) for a professional B2B image.
+* **Avoid "Free" Domains:** Avoid gimmicks requiring expensive long-term hosting packages. Use a low-cost custom domain from a reliable registrar (Namecheap, Porkbun, or Cloudflare Registrar) for a B2B B2B image.
 
 ### 2. Professional Email (Zoho Mail Setup)
 Use your custom domain with Zoho Mail's "Forever Free" plan:
@@ -64,3 +58,42 @@ Use your custom domain with Zoho Mail's "Forever Free" plan:
 2. **Setup DNS & Security:** Point domain nameservers to **Cloudflare** for secure routing and free SSL.
 3. **Deploy Website:** Push website static files to a GitHub repository and deploy using GitHub Pages or Cloudflare Pages.
 4. **Configure Email:** Verify domain on Zoho Mail, add MX/TXT/SPF records to Cloudflare DNS, and activate mailboxes.
+
+---
+
+## PART 3: BRAND DESIGN SYSTEM & LOGO SPECIFICATIONS
+
+### 1. Logo Typography & Connected Ligature Concept
+The logo is text-based and geometric, communicating enterprise architecture and professional stability. It uses a **continuous typographic ligature** styling:
+* **The "VMD" Core:** Rendered in an extra-bold/heavy weight. The characters `V`, `M`, and `D` are tightly kerned (character spacing pulled to zero) so that their vertical standing lines flow continuously into one another:
+  * The diagonal right arm of the `V` connects seamlessly into the first downward stroke of the `M`.
+  * The final right leg of the `M` merges directly into the straight vertical standing line of the `D`.
+* **The Suffix Highlight:**
+  * **"GenIQ"**: Written right next to the "VMD" block in a regular/light font weight to create visual contrast.
+  * **"Consulting"**: Placed underneath the name, styled in a tiny scale (approximately **1/10th the size of VMD**) to maintain visual balance and keep the main name dominant.
+* **Tagline Rule:** No taglines or slogans are embedded within the primary logo files to ensure clean legibility at small sizes (like favicons and profile icons). Slogans ("IT Consulting | GenAI | Digitalization") will live purely inside the website hero page copy.
+
+### 2. Theme Colors
+* **The Base (Trust):** Matte Charcoal (`#171a21`) or Slate Gray (`#64748b`) representing stable foundations.
+* **The Accent (Tech/Intelligence):** Electric Cyan / Teal (`#06b6d4`) representing GenAI capability.
+* **The Backdrop:** High-contrast layout optimized for a premium dark mode feel.
+
+---
+
+## PART 4: ACTION ITEMS & EXECUTION TIMELINE
+
+### Phase 1: Procurement & Setup (Days 1–5)
+* [ ] **Stamp Paper NOC:** Print the notarized Udyam-linked No Objection Certificate layout onto physical stamp paper, collect signatures, and self-attest.
+* [ ] **GST Registration Submission:** Upload property documents and NOC under the Consent section of the GST portal.
+* [ ] **Domain Registration:** Secure a `.in` or `.dev` domain using a trusted registrar.
+
+### Phase 2: Deployment & Configuration (Days 6–10)
+* [ ] **Cloudflare Nameservers:** Point domain DNS settings to Cloudflare and configure SSL encryption.
+* [ ] **Zoho Mail Onboarding:** Bind the domain to Zoho's corporate mail tier and add the verification MX/SPF records to Cloudflare.
+* [ ] **GST LUT Filing:** Access the active GST portal and submit a Letter of Undertaking (LUT) to enable zero-rated supply for international invoicing.
+* [ ] **Branding Asset Exports:** Build and export the transparent, continuous-line ligature "VMDGenIQ" logo in dark and light modes.
+
+### Phase 3: B2B Pipeline Activation (Days 11–60)
+* [ ] **LinkedIn & Digital Presence:** Optimize professional profiles with target headlines and the new continuous-line favicon.
+* [ ] **Master Services Agreement (MSA):** Draft standard contract templates and hourly/retainer invoicing sheets.
+* [ ] **Deploy Landing Page:** Publish a lean, highly optimized static landing page summarizing services and client CTAs.
